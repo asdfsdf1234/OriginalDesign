@@ -1,20 +1,21 @@
 void setup()
 {
-  size(400,400);
+  size(600,600);
 }
+
 void draw()
 {
-apple();
-bite();
+	computer();
+	monitor();
 }
 
-void apple()
+void computer()
 {
-	
+	fill(0);
+	rect(10, 10, 20, 20);
 }
 
-void bite()
+void monitor()
 {
 
 }
-
