@@ -1,6 +1,6 @@
 void setup()
 {
-  size(600,600);
+  size(800,600);
 }
 
 void draw()
@@ -11,11 +11,16 @@ void draw()
 
 void computer()
 {
-	fill(0);
-	rect(10, 10, 20, 20);
+	
+
 }
 
 void monitor()
 {
-
+	fill(0);
+	rect(200, 50, 400, 400);
+	quad(260, 450, 230, 500, 560, 500, 530, 450);
+	fill(0,100,255);
+	rect(210,60,380,380);
+	
 }
