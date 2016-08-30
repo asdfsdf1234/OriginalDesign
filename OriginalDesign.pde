@@ -5,13 +5,17 @@ void setup()
 
 void draw()
 {
-	computer();
 	monitor();
-}
+	computer();
+	}
 
 void computer()
 {
-	rect(50,300,350,300);
+	fill(0);
+	rect(0,225,350,300);
+	fill(255);
+	textSize(30);
+	text("697-334-Staddle", 25, 390);
 
 }
 
